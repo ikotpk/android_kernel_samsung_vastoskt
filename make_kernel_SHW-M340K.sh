@@ -1,0 +1,2 @@
+make vasto_kor_kt_defconfig
+make

@@ -1,0 +1,130 @@
+/* VASTO GPIOS */
+
+#ifndef __GPIO_VASTO_H_
+#define __GPIO_VASTO_H_
+
+#define GPIO_LCD_MCLK			4
+#define GPIO_LCD_R_7			5
+#define GPIO_LCD_R_6			6
+#define GPIO_LCD_R_5			7
+#define GPIO_LCDR_4				8
+#define GPIO_LCD_R_3			9
+#define GPIO_LCD_R_2			10
+#define GPIO_LCD_R_1			11
+#define GPIO_LCD_R_0			12
+#define GPIO_LCD_G_7			13
+#define GPIO_LCD_G_6			14
+#define GPIO_CAM_MCLK			15
+							/* 16 */
+#define GPIO_TDMB_INT       17
+//#define GPIO_ON_SW				18
+#define GPIO_SMB328A_INT    18
+							/* 19 */
+							/* 20 */
+							/* 21 */
+#define GPIO_LCD_RESET_N		22
+							/* 23 */
+#define GPIO_PM_INT_N			24
+#define GPIO_PS_HOLD			25
+#define GPIO_LCD_CS				26
+#define GPIO_TOUCH_IRQ			27
+#define GPIO_MUSB_INT			28
+#define GPIO_PROXI_INT			29
+#define GPIO_LCD_SCL			30
+#define GPIO_KBC_0				31
+							/* 32 */
+#define GPIO_WLAN_RESET_N		33
+#define GPIO_BT_PWR				34
+#define GPIO_TSP_SCL			35
+#define GPIO_KBR_1				36
+#define GPIO_ALS_SDA				37
+#define GPIO_ALS_SCL				38
+#define GPIO_KBR_0				39
+#define GPIO_TSP_SDA			40
+                            /* 41 */
+#define GPIO_WLAN_HOST_WAKE		42
+#define GPIO_BT_UART_RTS		43
+#define GPIO_BT_UART_CTS		44
+#define GPIO_BT_UART_RXD		45
+#define GPIO_BT_UART_TXD		46
+#define GPIO_SIM1_CLK_MSM		47
+							/* 48 */
+							/* 49 */
+#define GPIO_SIM1_DATA_MSM		50
+#define GPIO_MICROSD_DATA_3		51
+#define GPIO_MICROSD_DATA_2		52
+#define GPIO_MICROSD_DATA_1		53
+#define GPIO_MICROSD_DATA_0		54
+#define GPIO_MICROSD_CMD		55
+#define GPIO_MICROSD_CLK		56
+#define GPIO_LCD_SDA			57
+#define GPIO_KEY_TEST		    58
+#define GPIO_SBDT_RTR6285A		59
+#define GPIO_CAM_I2C_SCL		60
+#define GPIO_CAM_I2C_SDA		61
+#define GPIO_WLAN_SD_CLK		62
+#define GPIO_WLAN_SD_CMD		63
+#define GPIO_WLAN_SD_DATA_3		64
+#define GPIO_WLAN_SD_DATA_2		65
+#define GPIO_WLAN_SD_DATA_1		66
+#define GPIO_WLAN_SD_DATA_0		67
+#define GPIO_BT_PCM_DOUT		68
+#define GPIO_BT_PCM_DIN			69
+#define GPIO_BT_PCM_SYNC		70
+#define GPIO_BT_PCM_CLK			71
+#define GPIO_BT_nRST			72
+#define GPIO_ANT_SEL_3			73
+#define GPIO_ANT_SEL_2			74
+#define GPIO_ANT_SEL_1			75
+#define GPIO_MUS_SDA			76
+#define GPIO_MUS_SCL			77
+							/* 78 */
+#define GPIO_EAR_SWITCH			79
+#define GPIO_KEY_INT            80
+#define GPIO_GPS_LNA_ON			81
+#define GPIO_TDMB_EN            82
+#define GPIO_FM_RDS_INT			83
+#define GPIO_KEY_SCL            84
+#define GPIO_KEY_SDA            85
+							/* 86 */
+							/* 87 */
+							/* 88 */
+							/* 89 */
+							/* 90 */
+							/* 91 */
+							/* 92 */
+							/* 93 */
+#define GPIO_nTF_DETECT			94
+							/* 95 */
+#define GPIO_KEY_RST            96
+#define GPIO_UART_BOOT_ON		97
+#define GPIO_TDMB_RST     98
+
+#define GPIO_SMB328A_SDA    107
+							/* 108 */
+#define GPIO_SMB328A_SCL    109
+#define GPIO_BT_WAKE       110
+#define GPIO_LCD_G_1			111
+#define GPIO_LCD_G_0			112
+#define GPIO_LCD_B_7			113
+#define GPIO_LCD_B_6			114
+#define GPIO_LCD_B_5			115
+#define GPIO_LCD_B_4			116
+#define GPIO_LCD_B_3			117
+#define GPIO_LCD_B_2			118
+#define GPIO_LCD_G_4			119
+#define GPIO_LCD_G_3			120
+#define GPIO_LCDE_G_2			121
+#define GPIO_PHONE_RXD			122
+#define GPIO_PHONE_TXD			123
+#define GPIO_BT_HOST_WAKE		124
+#define GPIO_LCD_B_1			125
+#define GPIO_LCD_B_0			126
+#define GPIO_LCD_VSYNC			127
+#define GPIO_LCD_HSYNC			128
+#define GPIO_LCD_EN				129
+#define GPIO_LCD_G_5			130
+#define GPIO_I2C_SCL			131
+#define GPIO_I2C_SDA			132
+
+#endif	/* __GPIO_VASTO_H_ */
